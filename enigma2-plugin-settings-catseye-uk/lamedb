@@ -15,7 +15,7 @@ transponders
 011a0000:0814:0002
 	s 11127000:22000000:1:4:282:2:0
 /
-011a0000:0813:0002
+011a0000:0837:0002
 	s 11671000:22000000:0:4:282:2:0
 /
 011a0000:0836:0002
@@ -67,7 +67,7 @@ transponders
 	s 12188000:27500000:0:4:282:2:0
 /
 011a0000:083e:0002
-	s 11307000:27500000:1:2:282:2:0
+	s 11307000:27500000:1:4:282:2:0
 /
 011a0000:082f:0002
 	s 11552000:22000000:0:4:282:2:0
@@ -102,8 +102,8 @@ transponders
 011a0000:0800:0002
 	s 10818000:22000000:1:4:282:2:0
 /
-011a0000:083b:0002
-	s 11265000:27500000:0:2:282:2:0
+011a0000:0831:0002
+	s 11582000:22000000:0:4:282:2:0
 /
 011a0000:0805:0002
 	s 10891000:22000000:0:4:282:2:0
@@ -112,7 +112,7 @@ transponders
 	s 11141000:22000000:0:4:282:2:0
 /
 011a0000:0811:0002
-	s 11081000:22000000:0:4:282:2:0
+	s 11082000:22000000:0:4:282:2:0
 /
 011a0000:083c:0002
 	s 11265000:27500000:1:2:282:2:0
@@ -121,7 +121,7 @@ transponders
 	s 10773000:22000000:0:4:282:2:0
 /
 011a0000:0840:0002
-	s 11343000:27500000:1:4:282:2:0
+	s 11344000:27500000:1:4:282:2:0
 /
 011a0000:0817:0002
 	s 11171000:22000000:0:4:282:2:0
@@ -129,8 +129,8 @@ transponders
 011a0000:082d:0002
 	s 11523000:22000000:0:4:282:2:0
 /
-011a2d41:0831:0002
-	s 11582000:22000000:0:4:282:2:0
+011a0000:080e:0002
+	s 11038000:22000000:1:4:282:2:0
 /
 011a0000:082c:0002
 	s 11508000:23000000:1:2:282:2:0:1:2:3:0
@@ -175,7 +175,7 @@ transponders
 	s 10876000:23000000:1:2:282:2:0:1:2:3:2
 /
 011a0000:07f1:0002
-	s 12344000:29500000:0:6:282:2:0:1:1:0:2
+	s 12343000:29500000:0:6:282:2:0:1:1:0:2
 /
 011a0000:07e4:0002
 	s 12090000:29500000:1:6:282:2:0:1:1:0:2
@@ -237,8 +237,8 @@ transponders
 011a305e:07f3:0002
 	s 12382000:27500000:0:4:282:2:0
 /
-011a0000:0831:0002
-	s 11038000:22000000:1:4:282:2:33808
+011a2c01:083c:0002
+	s 11265000:27500000:0:2:282:2:2
 /
 end
 services
@@ -264,7 +264,7 @@ p:Sky Digital/Freesat,c:000906,c:010907,c:030906
 Channel 4 South & East
 p:Sky Digital/Freesat,c:000917,c:010918,c:02091d,c:030917
 23fd:011a0000:07f9:0002:1:0
-Channel 4 Midlands
+Channel 4 (Midlands)
 p:Sky Digital/Freesat,c:00091c,c:01091d,c:020921,c:03091c
 23fe:011a0000:07f9:0002:1:0
 Channel 4 North
@@ -297,29 +297,32 @@ cc48:011a0000:083d:0002:1:0
 S4C HD
 p:Sky Digital/Freesat,c:00092e,c:01092f,c:03092e
 cc42:011a0000:083d:0002:1:0
-Bike Channel
-p:Sky Digital/Freesat,c:000908,c:010909,c:030908
+Motorsport.tv UK
+p:Sky Digital/Freesat,c:00093d,c:01093e,c:03093d
 cc01:011a0000:083d:0002:1:0
 E! (Ireland)
 p:Sky Digital,c:00092b,c:010935,c:03092b
 cc06:011a0000:083d:0002:1:1
 E! (UK)
 p:Sky Digital,c:000927,c:01092a,c:020929,c:030927
-cc0b:011a0000:083d:0002:1:2
-E!+1 (UK)
-p:Sky Digital,c:000939,c:01093c,c:02093b,c:030939
 d106:011a0000:0832:0002:1:0
 Channels 24
 p:Sky Digital/Freesat,c:00091c,c:01091d,c:03091c
 d115:011a0000:0832:0002:1:0
-CGTN Africa
+GNTV (Africa)
 p:Sky Digital/Freesat,c:000901,c:010902,c:030901
 d110:011a0000:0832:0002:1:0
-TJC
+53520
 p:Sky Digital/Freesat,c:000932,c:010933,c:030932
 d11a:011a0000:0832:0002:1:0
 Thane
 p:Sky Digital/Freesat,c:000938,c:010939,c:030938
+d11f:011a0000:0832:0002:1:0
+Gospel Channel
+p:Sky Digital/Freesat,c:00090b,c:01090c,c:03090b
+d12e:011a0000:0832:0002:1:0
+NOW 80s
+p:Sky Digital/Freesat,c:000922,c:010923,c:030922
 d138:011a0000:0832:0002:1:0
 SonLife Broadcasting Network
 p:Sky Digital/Freesat,c:000906,c:010908,c:030906
@@ -332,6 +335,21 @@ p:Sky Digital/Freesat,c:00091a,c:01091b,c:03091a
 d101:011a0000:0832:0002:1:0
 Travel Ch +1
 p:Sky Digital/Freesat,c:000909,c:01090a,c:030909
+d124:011a0000:0832:0002:1:0
+Yanga! (Nigeria)
+p:Sky Digital/Freesat,c:000912,c:010913,c:030912
+d129:011a0000:0832:0002:1:0
+Ideal World
+p:Sky Digital/Freesat,c:00091c,c:01091d,c:03091c
+d136:011a0000:0832:0002:1:0
+Takbeer TV
+p:Sky Digital/Freesat,c:00091e,c:01091f,c:03091e
+d13d:011a0000:0832:0002:1:0
+Create & Craft
+p:Sky Digital/Freesat,c:000920,c:010921,c:030920
+d133:011a0000:0832:0002:1:0
+Ideal Extra
+p:Sky Digital/Freesat,c:000915,c:010916,c:030915
 d10b:011a0000:0832:0002:1:0
 Vintage TV
 p:Sky Digital/Freesat,c:00090e,c:01090f,c:03090e
@@ -422,27 +440,30 @@ p:Sky Digital/Freesat,c:00090c,c:01090d,c:02090e,c:03090c
 52d0:011a0000:0814:0002:1:0
 Channel 4 HD
 p:Sky Digital/Freesat,c:000901,c:010902,c:030901
-c418:011a0000:0813:0002:1:0
+c418:011a0000:0837:0002:1:0
 Cartoon Network
 p:Sky Digital,c:000901,c:010903,c:020904,c:030901
-c41d:011a0000:0813:0002:1:1
+c41d:011a0000:0837:0002:1:1
 Boomerang
 p:Sky Digital,c:000906,c:010907,c:020908,c:030906
-c422:011a0000:0813:0002:1:2
+c422:011a0000:0837:0002:1:2
 Boomerang +1
 p:Sky Digital,c:000909,c:01090b,c:02090c,c:030909
-c427:011a0000:0813:0002:1:3
+c427:011a0000:0837:0002:1:3
 Cartoon Network +1
 p:Sky Digital,c:00090e,c:01090f,c:020910,c:03090e
-c42c:011a0000:0813:0002:1:4
+c42c:011a0000:0837:0002:1:4
 CNN International Europe
 p:Sky Digital/Freesat,c:000911,c:010912,c:020913,c:030911
-c472:011a0000:0813:0002:1:5
+c472:011a0000:0837:0002:1:5
 CNN International HD
 p:Sky Digital/Freesat,c:000914,c:010916,c:030914
 d322:011a0000:0836:0002:1:0
 Television X - The Fantasy Channel
 p:Sky Digital,c:000905,c:010906,c:030905
+d32b:011a0000:0836:0002:1:0
+Channel 44
+p:Sky Digital/Freesat,c:000913,c:010914,c:030913
 d32d:011a0000:0836:0002:1:0
 Zee TV
 p:Sky Digital,c:000917,c:010918,c:030917
@@ -455,9 +476,6 @@ p:Sky Digital,c:00090f,c:010910,c:03090f
 d324:011a0000:0836:0002:1:1
 X Rated Hookups
 p:Sky Digital,c:000907,c:010908,c:030907
-d325:011a0000:0836:0002:1:2
-TVX Pornstars
-p:Sky Digital,c:000903,c:010904,c:030903
 d327:011a0000:0836:0002:1:0
 X Rated Couples
 p:Sky Digital,c:000909,c:01090a,c:030909
@@ -476,9 +494,9 @@ p:Sky Digital/Freesat
 d86d:011aad5c:0833:0002:25:1
 Record TV HD
 p:Sky Digital/Freesat,c:000911,c:010912,c:030911
-d872:011aad5c:0833:0002:25:0
-Daystar HD
-p:Sky Digital/Freesat,c:000905,c:010906,c:030905
+d868:011aad5c:0833:0002:25:0
+55400
+p:Sky Digital/Freesat,c:000904,c:010905,c:030904
 d877:011aad5c:0833:0002:25:0
 Al Jazeera English HD
 p:Sky Digital/Freesat,c:000903,c:010901,c:030903
@@ -486,7 +504,7 @@ d863:011a0000:0838:0002:25:0
 Box Nation HD
 p:Sky Digital,c:000922,c:010923,c:030922
 d804:011a0000:0838:0002:25:0
-Colours HD
+Colors HD
 p:Sky Digital,c:000901,c:010902,c:030901
 d809:011a0000:0838:0002:25:0
 Daystar HD
@@ -663,7 +681,7 @@ p:Sky Digital,c:000206,c:010286,c:020244,c:031ffe
 Sky Cinema Sci-Fi & Horror
 p:Sky Digital,c:000200,c:010280,c:02090f,c:031ffe
 10d2:011a0000:07dc:0002:1:0
-Sky Cinema Select
+Sky Cinema Classics
 p:Sky Digital,c:000202,c:010282,c:020242,c:031ffe
 10d4:011a0000:07dc:0002:1:0
 Sky Cinema Disney
@@ -684,7 +702,7 @@ p:Sky Digital,c:00020b,c:01028b,c:031ffe
 Sky Intro
 p:Sky Digital,c:00020b,c:01028b,c:031ffe
 1e15:011a0000:0809:0002:1:0
-Channel 5
+5
 p:Sky Digital/Freesat,c:00092a,c:01092b,c:02092d,c:03092a
 1e1e:011a0000:0809:0002:1:0
 5 USA
@@ -696,19 +714,19 @@ p:Sky Digital/Freesat,c:00091d,c:01091e,c:03091d
 5 Star
 p:Sky Digital/Freesat,c:000919,c:01091a,c:030919
 1e24:011a0000:0809:0002:1:0
-My5
+5 Select
 p:Sky Digital/Freesat,c:000921,c:010922,c:030921
 1e25:011a0000:0809:0002:1:0
 5 Star+1
 p:Sky Digital/Freesat,c:000925,c:010926,c:030925
 1e28:011a0000:0809:0002:1:0
-Channel 5+1
+5+1
 p:Sky Digital/Freesat,c:000911,c:010912,c:020914,c:030911
 1e32:011a0000:0809:0002:1:0
 5Spike
 p:Sky Digital/Freesat,c:000938,c:010939,c:030938
 1e46:011a0000:0809:0002:1:0
-Channel 5 HD
+5 HD
 p:Sky Digital/Freesat,c:000901,c:010902,c:020904,c:030901,c:050001
 1e33:011a0000:0809:0002:1:0
 5Spike+1
@@ -716,9 +734,9 @@ p:Sky Digital/Freesat,c:000932,c:010933,c:030932
 cd14:011a0000:0844:0002:1:0
 Food Network
 p:Sky Digital/Freesat,c:000909,c:01090a,c:030909
-cd32:011a0000:0844:0002:1:0
-Made In Bristol
-p:Sky Digital,c:000901,c:010902,c:030901
+cd37:011a0000:0844:0002:1:0
+ARY Family
+p:Sky Digital/Freesat,c:00096d,c:01096e,c:03096d
 cd4c:011a0000:0844:0002:1:0
 Freesports
 p:Sky Digital/Freesat,c:000903,c:010904,c:030903
@@ -740,21 +758,15 @@ p:Sky Digital/Freesat,c:00090d,c:01090e,c:03090d
 cd23:011a0000:0844:0002:1:0
 Dunya News
 p:Sky Digital/Freesat,c:000907,c:010908,c:030907
-cd37:011a0000:0844:0002:1:0
-New Vision+1
-p:Sky Digital/Freesat,c:00096d,c:01096e,c:03096d
 cd3c:011a0000:0844:0002:1:0
 Your TV
 p:Sky Digital/Freesat,c:000905,c:010906,c:030905
 cd41:011a0000:0844:0002:1:0
-True Crime
+Sony Crime 2
 p:Sky Digital/Freesat,c:000979,c:01097a,c:030979
 cd5a:011a0000:0844:0002:1:0
-France 24
+France 24 (English)
 p:Sky Digital/Freesat,c:000972,c:010975,c:030972
-cd4a:011a0000:0844:0002:1:0
-Made In Leeds
-p:Sky Digital,c:000928,c:010929,c:030928
 cd4e:011a0000:0844:0002:1:0
 Craft Extra
 p:Sky Digital/Freesat,c:000914,c:010915,c:030914
@@ -785,9 +797,6 @@ p:Sky Digital/Freesat,c:0015e0,c:0115e1,c:0215e3,c:0315e0
 1901:011a0000:07ff:0002:2:0
 BBC R Five Live
 p:Sky Digital/Freesat,c:011771,c:031771
-1936:011a0000:07ff:0002:2:0
-6454
-p:Sky Digital/Freesat
 1932:011a0000:07ff:0002:2:0
 BBC R1
 p:Sky Digital/Freesat,c:011839,c:031839
@@ -806,6 +815,9 @@ p:Sky Digital/Freesat,c:011965,c:031965
 1946:011a0000:07ff:0002:2:0
 BBC R London 94.9 FM
 p:Sky Digital/Freesat,c:0119c9,c:0319c9
+1936:011a0000:07ff:0002:2:0
+BBC R Cymru 2
+p:Sky Digital/Freesat,c:011a2d,c:031a2d
 0517:011a0000:07db:0002:1:0
 Sky Sports Premier League (UK)
 p:Sky Digital,c:000202,c:010282,c:031ffe
@@ -860,9 +872,6 @@ p:Sky Digital,c:000203,c:010284,c:020242,c:031ffe
 1089:011a0000:07db:0002:1:0
 Sky Sports Golf (ROI)
 p:Sky Digital,c:000204,c:010286,c:020243,c:031ffe
-d017:011a0000:083f:0002:1:0
-Sony Channel+1
-p:Sky Digital,c:000935,c:010936,c:030935
 d031:011a0000:083f:0002:1:0
 BT Sport Mosaic 2
 p:Sky Digital,c:000938,c:010939,c:030938
@@ -894,7 +903,7 @@ cfd5:011a0000:083f:0002:1:0
 Box Nation
 p:Sky Digital,c:000916,c:010917,c:030916
 d01c:011a0000:083f:0002:1:0
-Motorsport TV
+53276
 p:Sky Digital/Freesat,c:000903,c:010904,c:030903
 cfdf:011a0000:083f:0002:1:0
 Get Lucky
@@ -1002,7 +1011,7 @@ p:Sky Digital/Freesat,c:000206,c:01029a,c:020246,c:031ffe
 Sky Two (UK)
 p:Sky Digital,c:000207,c:010287,c:020247,c:031ffe
 1291:011a0000:07ea:0002:1:0
-Community Channel
+Together
 p:Sky Digital/Freesat,c:000209,c:010289,c:020249,c:031ffe
 1292:011a0000:07ea:0002:2:0
 Sky News Radio
@@ -1037,45 +1046,21 @@ p:Sky Digital,c:000205,c:010285,c:031ffe
 11d7:011a0000:07ea:0002:1:1
 4567
 p:Sky Digital,c:000200,c:010280,c:031ffe
-cb21:011a0000:0839:0002:1:0
-SET Max
-p:Sky Digital,c:00091e,c:01091f,c:03091e
-cb5c:011a0000:0839:0002:1:0
-Propeller TV
-p:Sky Digital/Freesat,c:000925,c:010926,c:030925
-cb61:011a0000:0839:0002:1:0
-New Vision TV
-p:Sky Digital/Freesat,c:000927,c:010928,c:030927
 cb27:011a0000:0839:0002:1:0
 Rishtey Cineplex
 p:Sky Digital,c:000912,c:01091b,c:030912
-cb22:011a0000:0839:0002:1:0
-Gospel Channel
-p:Sky Digital/Freesat
-cb24:011a0000:0839:0002:1:0
-Shop Nation
-p:Sky Digital/Freesat,c:00091c,c:01091d,c:03091c
-cb25:011a0000:0839:0002:1:0
-Ideal Extra
-p:Sky Digital/Freesat,c:00090c,c:01090d,c:03090c
+cb26:011a0000:0839:0002:1:0
+FrontRunner
+p:Sky Digital/Freesat,c:0008ff,c:010900,c:0308ff
+cb21:011a0000:0839:0002:1:0
+ABN TV
+p:Sky Digital/Freesat,c:000902,c:01090c,c:030902
 cb28:011a0000:0839:0002:1:0
 Babestation Apprentice
 p:Sky Digital/Freesat,c:000a46,c:010a47,c:030a46
-cb2a:011a0000:0839:0002:1:0
-Now Music
-p:Sky Digital/Freesat,c:000922,c:010923,c:030922
-cb48:011a0000:0839:0002:1:0
-Takbeer TV
-p:Sky Digital/Freesat,c:000915,c:010916,c:030915
 cb52:011a0000:0839:0002:1:0
 Colors
 p:Sky Digital,c:000903,c:010904,c:030903
-cb66:011a0000:0839:0002:1:0
-TJC Choice
-p:Sky Digital/Freesat
-cb70:011a0000:0839:0002:1:0
-Ahlulbayt TV
-p:Sky Digital/Freesat,c:000913,c:010914,c:030913
 cb3c:011a0000:0839:0002:2:0
 BFBS Radio
 p:Sky Digital/Freesat,c:01090e,c:03090e
@@ -1100,48 +1085,15 @@ p:Sky Digital/Freesat,c:01090b,c:03090b
 cb43:011a0000:0839:0002:2:3
 Absolute Radio Classic Rock
 p:Sky Digital/Freesat,c:010907,c:030907
-cb47:011a0000:0839:0002:1:0
-Ideal World
-p:Sky Digital/Freesat,c:000910,c:010911,c:030910
-cb57:011a0000:0839:0002:1:0
-Create & Craft
-p:Sky Digital/Freesat,c:000919,c:01091a,c:030919
 cb6b:011a0000:0839:0002:1:0
 Property Show
 p:Sky Digital/Freesat,c:00092a,c:01092b,c:03092a
-cb78:011a0000:0839:0002:2:0
-WRN Europe
-p:Sky Digital/Freesat,c:010901,c:030901
-cb79:011a0000:0839:0002:2:1
-Absolute Radio 70s
-p:Sky Digital/Freesat,c:010902,c:030902
 d843:011a0000:0839:0002:2:2
 InsightRadio
 p:Sky Digital/Freesat,c:010903,c:030903
-cb7a:011a0000:0839:0002:2:3
-Ahomka
-p:Sky Digital/Freesat,c:010909,c:030909
-cb7b:011a0000:0839:0002:2:4
-TWR
-p:Sky Digital/Freesat,c:010905,c:030905
-cb7c:011a0000:0839:0002:2:5
-Desi Radio
-p:Sky Digital/Freesat,c:01090f,c:03090f
 cb7d:011a0000:0839:0002:2:6
 Rainbow
 p:Sky Digital/Freesat,c:010911,c:030911
-cb7e:011a0000:0839:0002:2:7
-Kanshi Radio
-p:Sky Digital/Freesat,c:01091b,c:03091b
-cb7f:011a0000:0839:0002:2:8
-Liberty
-p:Sky Digital/Freesat,c:010915,c:030915
-cb80:011a0000:0839:0002:2:9
-Jazz FM
-p:Sky Digital/Freesat,c:01091d,c:03091d
-cb81:011a0000:0839:0002:2:10
-Solar Radio
-p:Sky Digital/Freesat,c:010959,c:030959
 122d:011a0000:07e9:0002:1:0
 History
 p:Sky Digital,c:000203,c:010283,c:020243,c:031ffe
@@ -1185,11 +1137,11 @@ p:Sky Digital,c:00020e,c:010290,c:031ffe
 be3
 p:Sky Digital,c:000205,c:010285,c:020245,c:031ffe
 100c:011a0000:07e9:0002:1:0
-Sky On Demand B
-p:Sky Digital
+Sky Atlantic VIP
+p:Sky Digital,c:000207,c:01028f,c:030207
 0f37:011a0000:07e9:0002:1:0
-
-p:Sky Digital,c:000207,c:01028f,c:020242,c:031ffe
+3895
+p:Sky Digital,c:000207,c:01028e,c:020242,c:031ffe
 2463:011a0000:07e9:0002:1:0
 At The Races (Pubs)
 p:Sky Digital,c:000204,c:010284,c:020244,c:031ffe
@@ -1202,6 +1154,9 @@ p:Sky Digital/Freesat,c:00092a,c:01092b,c:03092a
 d034:011a0000:083e:0002:1:0
 Tru TV +1
 p:Sky Digital/Freesat,c:000913,c:010914,c:030913
+d08e:011a0000:083e:0002:1:0
+Sony Crime+1 (UK)
+p:Sky Digital/Freesat,c:000900,c:010901,c:030900
 d043:011a0000:083e:0002:1:0
 Chart Show Hits
 p:Sky Digital/Freesat,c:00091b,c:01091c,c:03091b
@@ -1244,20 +1199,23 @@ p:Sky Digital/Freesat,c:000925,c:010926,c:030925
 d084:011a0000:083e:0002:1:0
 True Entertainment+1
 p:Sky Digital/Freesat,c:000928,c:010929,c:030928
-253b:011a0000:082f:0002:1:0
-GR Shop
-p:Sky Digital/Freesat,c:000913,c:010913,c:030913
+d089:011a0000:083e:0002:1:0
+Sony Crime (UK)
+p:Sky Digital/Freesat,c:000904,c:010907,c:030904
 253d:011a0000:082f:0002:1:0
 Rocks & Co
 p:Sky Digital/Freesat,c:000917,c:010918,c:030917
+253b:011a0000:082f:0002:1:0
+Sewing Quarter
+p:Sky Digital/Freesat,c:000926,c:010927,c:030926
 d73e:011a0000:082f:0002:1:0
-High Street TV
+High Street 2
 p:Sky Digital/Freesat,c:000930,c:010931,c:030930
 2540:011a0000:082f:0002:1:0
 Sangat
 p:Sky Digital/Freesat,c:00091a,c:01091b,c:03091a
 d740:011a0000:082f:0002:1:0
-High Street TV 3
+High Street 4
 p:Sky Digital/Freesat,c:000922,c:010923,c:030922
 2541:011a0000:082f:0002:1:0
 Hochanda
@@ -1277,12 +1235,12 @@ p:Sky Digital/Freesat,c:000932,c:010933,c:030932
 d749:011a0000:082f:0002:1:0
 Clubland TV
 p:Sky Digital/Freesat,c:0009fd,c:0109fe,c:0309fd
-d74a:011a0000:082f:0002:1:0
-Chilled TV
-p:Sky Digital/Freesat,c:000a00,c:010a01,c:030a00
 d74b:011a0000:082f:0002:1:0
 Geo Kahani
 p:Sky Digital/Freesat,c:000a03,c:010a04,c:030a03
+d74a:011a0000:082f:0002:1:0
+Now 90´s
+p:Sky Digital/Freesat,c:000a00,c:010a01,c:030a00
 d74c:011a0000:082f:0002:1:0
 NDTV 24x7
 p:Sky Digital/Freesat,c:000938,c:010939,c:030938
@@ -1290,7 +1248,7 @@ d74d:011a0000:082f:0002:1:0
 PTC Punjabi
 p:Sky Digital/Freesat,c:00092e,c:01092f,c:03092e
 d74e:011a0000:082f:0002:1:0
-My Channel
+mytv
 p:Sky Digital/Freesat,c:000902,c:010903,c:030902
 254d:011a0000:082f:0002:2:0
 Capital XTRA
@@ -1322,9 +1280,6 @@ p:Sky Digital/Freesat,c:010928,c:030928
 2567:011a0000:082f:0002:2:0
 Planet Rock
 p:Sky Digital/Freesat,c:010929,c:030929
-d741:011a0000:082f:0002:1:0
-KTV
-p:Sky Digital/Freesat,c:000924,c:010925,c:030924
 283d:011a0000:07fe:0002:1:0
 BBC One West Midlands
 p:Sky Digital/Freesat,c:001388,c:011389,c:02138a,c:031388
@@ -1454,12 +1409,6 @@ p:Sky Digital,c:000909,c:010911,c:030901,f:8
 1663:011a2f26:07e3:0002:1:0
 XXX Mums
 p:Sky Digital,c:000a1d,c:010a1e,c:030900
-1662:011a2f26:07e3:0002:1:1
-XXX Brits
-p:Sky Digital,c:000a1f,c:010a20,c:030900
-1669:011a2f26:07e3:0002:1:0
-XXX Age Gaps
-p:Sky Digital,c:000a18,c:010a19,c:030900
 1667:011a2f26:07e3:0002:1:0
 XXX Girl Girl
 p:Sky Digital,c:000a15,c:010a16,c:030a15
@@ -1469,9 +1418,6 @@ p:Sky Digital,c:000912,c:010913,c:030912,f:8
 232a:011a0000:07ee:0002:25:0
 Ultra HD
 p:Sky Digital,c:00020a,c:01029e,c:020243,c:030900
-0f7d:011a0000:07ee:0002:25:0
-Sky 1 HD (Ireland)
-p:Sky Digital,c:000200,c:010280,c:030200
 274c:011a0000:07fc:0002:1:0
 ITV London
 p:Sky Digital/Freesat,c:000d00,c:010d01,c:02090f,c:030d00
@@ -1545,7 +1491,7 @@ d39a:011a0000:0830:0002:1:0
 Glory TV
 p:Sky Digital/Freesat,c:00090e,c:01090f,c:03090e
 d39f:011a0000:0830:0002:1:0
-Tristar
+54175
 p:Sky Digital/Freesat,c:000928,c:010929,c:030928
 d3a4:011a0000:0830:0002:1:0
 TV Warehouse
@@ -1553,15 +1499,9 @@ p:Sky Digital/Freesat,c:00091a,c:01091b,c:03091a
 d3a9:011a0000:0830:0002:1:0
 Geo TV
 p:Sky Digital/Freesat,c:000907,c:010908,c:030907
-d361:011a0000:0830:0002:1:0
-Sony Channel
-p:Sky Digital,c:000914,c:010915,c:030914
 1b59:011a0000:07da:0002:1:0
 Mtv
 p:Sky Digital,c:000913,c:010902,c:020914,c:030901
-1b58:011a0000:07da:0002:1:0
-7000
-p:Sky Digital,c:000913,c:010902,c:030913
 1b65:011a0000:07da:0002:1:0
 MTV Music+1
 p:Sky Digital,c:000908,c:010909,c:030908
@@ -1584,8 +1524,8 @@ p:Sky Digital,c:000927,c:010925,c:020928,c:030901
 MTV Classic
 p:Sky Digital,c:00092b,c:010929,c:02092c,c:030901
 1b61:011a0000:07da:0002:1:0
-Viva
-p:Sky Digital/Freesat,c:00092d,c:01092e,c:02092f,c:030901
+MTV Love
+p:Sky Digital,c:00092d,c:01092e,c:02092f,c:030901
 1b62:011a0000:07da:0002:1:0
 MTV (Ireland)
 p:Sky Digital,c:00093c,c:01093a,c:02093b,c:030901
@@ -1682,66 +1622,54 @@ p:Sky Digital/Freesat,c:0015e0,c:0115e1,c:0215e3,c:0315e0
 287a:011a0000:0800:0002:1:0
 BBC Two Northern Ireland
 p:Sky Digital/Freesat,c:001644,c:011645,c:021647,c:031644
-cb86:011a0000:083b:0002:1:0
-Channels 24
-p:Sky Digital/Freesat,c:000933,c:010934,c:030933
-cb87:011a0000:083b:0002:1:0
+cb86:011a0000:0831:0002:1:0
+Propeller TV
+p:Sky Digital/Freesat,c:00090c,c:01090d,c:03090c
+cb87:011a0000:0831:0002:1:0
 Rishtey TV
 p:Sky Digital,c:000922,c:010923,c:030922
-cb88:011a0000:083b:0002:1:0
+cb88:011a0000:0831:0002:1:0
 Olive TV
 p:Sky Digital/Freesat,c:00090e,c:01090f,c:03090e
-cb8b:011a0000:083b:0002:1:0
+cb8b:011a0000:0831:0002:1:0
 Channel AKA
 p:Sky Digital/Freesat,c:0002c3,c:01025f,c:0302c3
-cb8c:011a0000:083b:0002:1:0
+cb8c:011a0000:0831:0002:1:0
 Star Plus
 p:Sky Digital,c:000901,c:010902,c:030901
-cb8d:011a0000:083b:0002:1:0
-Adult Channel (Nights)
-p:Sky Digital,c:000a2c,c:010a2d,c:030a2c
-cbac:011a0000:083b:0002:1:0
+cbac:011a0000:0831:0002:1:0
 Eman Channel
 p:Sky Digital/Freesat,c:00093d,c:01093e,c:03093d
-cb8f:011a0000:083b:0002:1:0
-ABN TV
-p:Sky Digital/Freesat,c:000920,c:010921,c:030920
-cb90:011a0000:083b:0002:1:0
-Star Utsav
-p:Sky Digital,c:000938,c:010939,c:020917,c:030938
-cb91:011a0000:083b:0002:1:0
+cb91:011a0000:0831:0002:1:0
 Star GOLD
 p:Sky Digital,c:000919,c:01091a,c:030919
-cbc9:011a0000:083b:0002:1:0
-Playboy TV (Nights)
-p:Sky Digital,c:00091e,c:01091f,c:03091e
-cbca:011a0000:083b:0002:1:0
+cbca:011a0000:0831:0002:1:0
 Safeer TV
 p:Sky Digital/Freesat,c:00092c,c:01092d,c:03092c
-cbcf:011a0000:083b:0002:1:0
+cbcf:011a0000:0831:0002:1:0
 TCM+1
 p:Sky Digital,c:000929,c:01092a,c:030929
-cbd9:011a0000:083b:0002:1:0
+cbd9:011a0000:0831:0002:1:0
 Star Bharat
 p:Sky Digital,c:000930,c:010931,c:030930
-cbe2:011a0000:083b:0002:2:0
+cbe2:011a0000:0831:0002:2:0
 Kiss FM
 p:Sky Digital/Freesat,c:010905,c:030905
-cba4:011a0000:083b:0002:2:0
+cba4:011a0000:0831:0002:2:0
 Panjab Radio
 p:Sky Digital/Freesat,c:010904,c:030904
-cba5:011a0000:083b:0002:2:0
+cba5:011a0000:0831:0002:2:0
 Sukh Sagar
 p:Sky Digital/Freesat,c:010906,c:030906
-cb89:011a0000:083b:0002:1:0
-The Word Network
-p:Sky Digital/Freesat,c:000916,c:010917,c:030916
-cbe3:011a0000:083b:0002:2:0
+cbe3:011a0000:0831:0002:2:0
 Magic 105.4 FM
 p:Sky Digital/Freesat,c:010907,c:030907
-cb8a:011a0000:083b:0002:1:0
+cb8a:011a0000:0831:0002:1:0
 Kanshi TV
 p:Sky Digital/Freesat,c:000908,c:010909,c:030908
+cb84:011a0000:0831:0002:1:0
+Sony Max
+p:Sky Digital,c:00091b,c:01091c,c:02091d,c:03091b
 2788:011a0000:0805:0002:1:0
 ITV Border
 p:Sky Digital/Freesat,c:000d28,c:010d29,c:02090a,c:030d28
@@ -1817,12 +1745,12 @@ p:Sky Digital,c:000936,c:010937,c:030936
 c489:011a0000:0811:0002:1:0
 Pavers Shoes TV
 p:Sky Digital/Freesat,c:00090f,c:010910,c:03090f
-c47c:011a0000:0811:0002:1:0
-Channel S (Bangladesh)
-p:Sky Digital/Freesat,c:000913,c:010914,c:030913
 c481:011a0000:0811:0002:1:0
 Showcase +1
 p:Sky Digital/Freesat,c:000901,c:010902,c:030901
+c47c:011a0000:0811:0002:1:0
+KTV (India)
+p:Sky Digital/Freesat,c:00092a,c:01092b,c:03092a
 c49f:011a0000:0811:0002:1:0
 Sikh Channel
 p:Sky Digital/Freesat
@@ -1843,18 +1771,30 @@ Inspiration
 p:Sky Digital/Freesat,c:00090b,c:01090c,c:03090b
 c4a9:011a0000:0811:0002:1:0
 Hillsong
-p:Sky Digital,c:000920,c:010921,c:030920
+p:Sky Digital/Freesat,c:000920,c:010921,c:030920
 c4ae:011a0000:0811:0002:1:0
 Blaze
 p:Sky Digital/Freesat,c:000906,c:010907,c:030906
 c48c:011a0000:0811:0002:1:0
 Bloomberg
 p:Sky Digital/Freesat,c:000926,c:010927,c:030926
+c490:011a0000:0811:0002:1:0
+TJC (The Jewellery Channel)
+p:Sky Digital/Freesat
+c490:011a0000:0811:0002:1:0
+TJC Choice
+p:Sky Digital/Freesat,c:000908,c:010909,c:030908
+c495:011a0000:0811:0002:1:0
+Ahlulbayt TV
+p:Sky Digital/Freesat,c:000922,c:010923,c:030922
 cb96:011a0000:083c:0002:1:0
 PCNE Chinese
 p:Sky Digital/Freesat,c:00090b,c:01090c,c:0310cb
+cbd4:011a0000:083c:0002:1:0
+ShoppingNation
+p:Sky Digital/Freesat,c:00090a,c:01090b,c:03090a
 cbaa:011a0000:083c:0002:1:0
-DBN - Deya Broadcasting Network
+	Peace TV Urdu
 p:Sky Digital/Freesat,c:000901,c:010902,c:030901
 cb97:011a0000:083c:0002:1:0
 Islam Channel Urdu
@@ -1911,7 +1851,7 @@ d7a7:011a0000:0840:0002:1:0
 amc
 p:Sky Digital,c:000905,c:010906,c:030905
 d7ad:011a0000:0840:0002:1:0
-High Street TV 2
+High Street 3
 p:Sky Digital/Freesat,c:000901,c:010902,c:030901
 d7ba:011a0000:0840:0002:1:0
 Psychic Today
@@ -1922,9 +1862,6 @@ p:Sky Digital/Freesat,c:000c08,c:010c09,c:030c08
 d7d3:011a0000:0840:0002:1:0
 55251
 p:Sky Digital/Freesat
-d7e6:011a0000:0840:0002:1:0
-Made In Cardiff
-p:Sky Digital,c:000912,c:010913,c:030912
 d7a5:011a0000:0840:0002:1:0
 BT Sport 1 (UK & ROI)
 p:Sky Digital,c:000a50,c:010a51,c:030a50
@@ -1949,6 +1886,9 @@ p:Sky Digital/Freesat,c:000908,c:010909,c:030908
 d7dc:011a0000:0840:0002:1:0
 BT Sport 3 (Pubs)
 p:Sky Digital,c:000a56,c:010a57,c:030a56
+d7bb:011a0000:0840:0002:1:0
+Dirty Talk
+p:Sky Digital,c:00090e,c:01090f,c:03090e
 d7d2:011a0000:0840:0002:1:0
 BT Sport 1 (Pubs)
 p:Sky Digital,c:000a50,c:010a51,c:030a50
@@ -1988,15 +1928,18 @@ p:Sky Digital,c:000906,c:010907,c:030906
 c7aa:011a0000:0817:0002:2:0
 News Talk Radio
 p:Sky Digital/Freesat,c:01091b,c:030901
-c7b1:011a0000:0817:0002:1:0
-Peace TV (Urdu)
-p:Sky Digital/Freesat,c:000904,c:010905,c:030904
 c7b2:011a0000:0817:0002:1:0
 eir Sport 1 (ROI Pubs)
 p:Sky Digital,c:000918,c:010919,c:030901
 c7b3:011a0000:0817:0002:1:0
 eir Sport 2 (ROI Pubs)
 p:Sky Digital,c:00091f,c:01091e,c:030903
+c7b7:011a0000:0817:0002:1:0
+Climax 3
+p:Sky Digital,c:000911,c:010912,c:030911
+c7b8:011a0000:0817:0002:1:0
+Akaal Channel
+p:Sky Digital/Freesat,c:000902,c:010904,c:030902
 1db0:011a0000:082d:0002:1:0
 Home+1
 p:Sky Digital,c:000908,c:010909,c:020905,c:030908
@@ -2033,37 +1976,37 @@ p:Sky Digital,c:00093c,c:01093d,c:02093f,c:03093c
 1de9:011a0000:082d:0002:1:0
 W (Ireland)
 p:Sky Digital,c:000917,c:010918,c:030917
-ccb0:011a2d41:0831:0002:1:0
+ccb0:011a0000:080e:0002:1:0
 I.D (UK)
 p:Sky Digital,c:000913,c:010914,c:030913
-ccb5:011a2d41:0831:0002:1:1
+ccb5:011a0000:080e:0002:1:1
 Animal Plnt+1
 p:Sky Digital,c:000905,c:010906,c:030905
-ccbf:011a2d41:0831:0002:1:3
+ccbf:011a0000:080e:0002:1:3
 DMAX
 p:Sky Digital,c:000920,c:010921,c:030920
-ccc4:011a2d41:0831:0002:1:4
+ccc4:011a0000:080e:0002:1:4
 DMAX+1
 p:Sky Digital,c:00090d,c:01090e,c:03090d
-ccca:011a2d41:0831:0002:1:5
+ccca:011a0000:080e:0002:1:5
 I.D+1
 p:Sky Digital,c:000921,c:010922,c:030921
-ccd3:011a2d41:0831:0002:1:7
+ccd3:011a0000:080e:0002:1:7
 Disc.History+1
 p:Sky Digital,c:00091b,c:01091c,c:03091b
-ccd8:011a2d41:0831:0002:1:8
+ccd8:011a0000:080e:0002:1:8
 Discovery Shed
 p:Sky Digital,c:00091f,c:010920,c:03091f
-ccde:011a2d41:0831:0002:1:9
+ccde:011a0000:080e:0002:1:9
 TLC+1
 p:Sky Digital,c:000909,c:01090a,c:030909
-cce2:011a2d41:0831:0002:1:10
+cce2:011a0000:080e:0002:1:10
 Home & Health+1
 p:Sky Digital,c:00090f,c:010910,c:03090f
-cce7:011a2d41:0831:0002:1:11
+cce7:011a0000:080e:0002:1:11
 TLC+2
 p:Sky Digital,c:000924,c:010925,c:030924
-ccba:011a2d41:0831:0002:1:0
+ccba:011a0000:080e:0002:1:0
 Disc.Sci+1
 p:Sky Digital,c:000901,c:010902,c:030901
 d7e8:011a0000:082c:0002:25:0
@@ -2079,7 +2022,7 @@ d7e9:011a0000:082c:0002:25:0
 TRT World HD
 p:Sky Digital/Freesat,c:000910,c:010911,c:030910
 c6c0:011a0000:082a:0002:1:0
-STV2
+Babes & Brazzers
 p:Sky Digital,c:00090e,c:01090f,c:03090e
 c6c1:011a0000:082a:0002:1:0
 TRT World
@@ -2127,7 +2070,7 @@ c6cf:011a0000:082a:0002:1:0
 TVC News
 p:Sky Digital/Freesat,c:000923,c:010924,c:030923
 5726:011a2ce6:082b:0002:1:0
-Insight UHD
+Insight HD
 p:Sky Digital,c:000907,c:010908,c:030907
 571d:011a2ce6:082b:0002:1:0
 QVC Extra
@@ -2144,27 +2087,21 @@ p:Sky Digital/Freesat,c:000938,c:010939,c:030938
 d3c2:011a0000:0829:0002:1:0
 ROK
 p:Sky Digital/Freesat,c:000912,c:010913,c:030912
+d3c5:011a0000:0829:0002:1:0
+Adult Channel
+p:Sky Digital/Freesat,c:00090a,c:01090b,c:03090a
 d3c3:011a0000:0829:0002:1:0
-54211
-p:Sky Digital/Freesat
+Fame TV
+p:Sky Digital/Freesat,c:000908,c:010909,c:030908
 d3c6:011a0000:0829:0002:1:0
 54214
-p:Sky Digital,c:00093d,c:01093e,c:03093d
-d3c7:011a0000:0829:0002:1:0
-Akaal Channel
-p:Sky Digital/Freesat,c:000924,c:010925,c:030924
+p:Sky Digital/Freesat,c:00093d,c:01093e,c:03093d
 d3c8:011a0000:0829:0002:1:0
 CGTN
 p:Sky Digital/Freesat,c:00092f,c:010930,c:03092f
 d3c9:011a0000:0829:0002:1:0
 Nollywood Movies
 p:Sky Digital,c:000917,c:010918,c:030917
-d3ca:011a0000:0829:0002:1:0
-TVC News+1
-p:Sky Digital/Freesat,c:000932,c:010933,c:030932
-d3cb:011a0000:0829:0002:1:0
-DM Plus TV
-p:Sky Digital/Freesat,c:000919,c:01091a,c:030919
 d3cc:011a0000:0829:0002:1:0
 AIT International UK
 p:Sky Digital,c:00091c,c:01091d,c:03091c
@@ -2187,7 +2124,7 @@ d3d3:011a0000:0829:0002:1:0
 Abu Dhabi TV
 p:Sky Digital/Freesat,c:000929,c:01092a,c:030929
 d3d4:011a0000:0829:0002:1:0
-Cruise First TV
+Cruise 1st TV
 p:Sky Digital/Freesat,c:000901,c:010902,c:030901
 d21e:011a0000:0841:0002:25:0
 BT Sport 1 HD (Pubs)
@@ -2195,6 +2132,9 @@ p:Sky Digital,c:000924,c:010925,c:030924
 d219:011a0000:0841:0002:25:0
 BT Sport 2 HD (UK & ROI)
 p:Sky Digital,c:000901,c:010902,c:030901
+d225:011a0000:0841:0002:25:0
+53797
+p:Sky Digital,c:000906,c:010907,c:030906
 d21f:011a0000:0841:0002:25:0
 BT Sport 2 HD (ROI Pubs)
 p:Sky Digital,c:000924,c:010925,c:030924
@@ -2222,9 +2162,6 @@ p:Sky Digital/Freesat,c:010062,c:031fff
 2329:011a0000:07d4:0002:2:0
 BEM
 p:Sky Digital/Freesat,c:010a02,c:031fff
-1038:011a0000:07d4:0002:2:0
-EPG Background Audio.
-p:Sky Digital/Freesat,c:010288,c:030288
 1d4d:011a0000:07d4:0002:2:0
 PSL
 p:Sky Digital/Freesat,c:0103e9,c:031fff
@@ -2234,9 +2171,6 @@ p:Sky Digital/Freesat,c:010288,c:031ffe
 0f04:011a0000:07f0:0002:25:0
 Film 4 HD
 p:Sky Digital,c:000202,c:010296,c:020242,c:030202
-03fe:011a0000:07f0:0002:25:0
-Sky Intro HD
-p:Sky Digital,c:000204,c:010298,c:030204
 0c1c:011a0000:07f0:0002:25:0
 3100
 p:Sky Digital,c:000203,c:010283,c:030203
@@ -2255,6 +2189,9 @@ p:Sky Digital,c:000201,c:010295,c:020241,c:030201
 0fc6:011a0000:07f0:0002:25:0
 Chelsea TV HD
 p:Sky Digital,c:000200,c:010294,c:030200
+0f7e:011a0000:07f0:0002:25:0
+Sky 1 HD (ROI)
+p:Sky Digital,c:000204,c:010284,c:030204
 040b:011a0000:07f0:0002:25:0
 Sky Sports Box Office HD
 p:Sky Digital,c:000203,c:010283,c:030203
@@ -2313,8 +2250,8 @@ p:Sky Digital/Freesat,c:000915,c:010916,c:030915,f:8
 Liverpool FCTV HD
 p:Sky Digital,c:000204,c:010298,c:030204
 1007:011a0000:07d2:0002:25:0
-Sky On Demand HD3
-p:Sky Digital
+Sky Atlantic VIP HD
+p:Sky Digital,c:000202,c:010296,c:030202
 0f00:011a0000:07d2:0002:25:0
 Viceland HD
 p:Sky Digital,c:000206,c:01029a,c:030206
@@ -2363,6 +2300,9 @@ p:Sky Digital,c:000202,c:010282,c:020240,c:030202
 0ef3:011a0000:07d5:0002:25:1
 Sky Sports Golf HD
 p:Sky Digital,c:000201,c:010284,c:020241,c:030201
+0cc6:011a0000:07d5:0002:25:0
+Nick Junior HD (UK)
+p:Sky Digital,c:000205,c:010286,c:030205
 0f03:011a0000:07d5:0002:25:2
 Sky Sports Football HD
 p:Sky Digital,c:000204,c:010283,c:020244,c:030204
@@ -2429,9 +2369,6 @@ p:Sky Digital,c:000202,c:010296,c:030202
 0e2b:011a0000:07e4:0002:25:0
 Disney XD HD
 p:Sky Digital,c:000206,c:01029a,c:030206
-0f41:011a0000:07e4:0002:25:0
-MTV HD (UK)
-p:Sky Digital,c:000204,c:010298,c:030204
 1971:011a0000:07e4:0002:25:0
 Gold HD
 p:Sky Digital,c:000203,c:010297,c:030203
@@ -2442,17 +2379,11 @@ p:Sky Digital,c:000205,c:010299,c:030205
 Sky Movies Crime HD
 p:Sky Digital,c:000203,c:010297,c:020908,c:030203
 0f3d:011a0000:07e0:0002:25:0
-Sky Movies Select HD
+Sky Movies Classics HD
 p:Sky Digital,c:000204,c:010298,c:030204
-0fc5:011a0000:07e0:0002:25:0
-4037
-p:Sky Digital,c:000202,c:010296,c:030202
 0eea:011a0000:07e0:0002:25:0
 Sky Movies Family HD
 p:Sky Digital,c:000201,c:010295,c:020907,c:030201
-0e27:011a0000:07e0:0002:25:0
-Star Plus HD
-p:Sky Digital,c:000903,c:010904,c:030903
 0eec:011a0000:07e0:0002:25:0
 3e HD
 p:Sky Digital,c:000202,c:010296,c:030202
@@ -2507,6 +2438,9 @@ p:Sky Digital,c:000201,c:010281,c:030201
 0c1c:011a0000:07d3:0002:25:0
 3100
 p:Sky Digital,c:000201,c:010281,c:030201
+235b:011a0000:07d3:0002:25:0
+Sky Ultra HD
+p:Sky Digital,c:000200,c:010294,c:030900
 0fc0:011a0000:07d3:0002:25:0
 Star Gold HD (UK)
 p:Sky Digital,c:000202,c:010296,c:030202
@@ -2528,6 +2462,9 @@ p:Sky Digital,c:000204,c:010284,c:020241,c:030204
 0f64:011a0000:07d8:0002:25:0
 Sky Sports Arena HD (UK & ROI)
 p:Sky Digital,c:000204,c:010284,c:020241,c:030204
+0cca:011a0000:07d8:0002:25:0
+Film 4 HD
+p:Sky Digital,c:000205,c:010280,c:030205
 0f2d:011a0000:07ec:0002:25:0
 NatGeoWild HD
 p:Sky Digital,c:000202,c:010296,c:030202
@@ -2540,6 +2477,12 @@ p:Sky Digital,c:000203,c:010297,c:030203
 0ee6:011a0000:07ec:0002:25:0
 Sky Movies Action HD
 p:Sky Digital,c:000200,c:010294,c:020907,c:030200
+03fe:011a0000:07ec:0002:25:0
+Sky Intro HD
+p:Sky Digital,c:000907,c:010908,c:030907
+0edb:011a0000:07ec:0002:25:0
+Star Plus HD
+p:Sky Digital,c:000204,c:01029b,c:030204
 0f51:011a0000:07ec:0002:25:0
 RTE 1 HD
 p:Sky Digital,c:000205,c:01029a,c:030205
@@ -2603,6 +2546,9 @@ p:
 0e2d:011a0000:07f2:0002:25:0
 Sky Sports News HD (ROI)
 p:Sky Digital,c:000203,c:010283,c:020243,c:030203
+0cc9:011a0000:07f2:0002:25:0
+Sky Sports Mix HD
+p:Sky Digital
 0eee:011a0000:07f2:0002:25:1
 Sky Sports Action HD (UK & ROI)
 p:Sky Digital,c:000201,c:010281,c:020241,c:030201
@@ -2723,18 +2669,60 @@ p:Sky Digital/Freesat,c:00090d,c:01090e,c:03090d
 5851:011a0000:082e:0002:1:7
 XXXpanded TV
 p:Sky Digital/Freesat,c:00090f,c:010910,c:03090f
-5852:011a0000:082e:0002:1:8
-22610
-p:Sky Digital/Freesat,c:000911,c:010912,c:030911
+5852:011a0000:082e:0002:1:0
+The Word Network
+p:Sky Digital/Freesat,c:000926,c:010927,c:030926
 5856:011a0000:082e:0002:1:0
 TV 99
 p:Sky Digital/Freesat,c:00091a,c:01091b,c:03091a
+584a:011a0000:082e:0002:1:0
+Channel S (Bangladesh)
+p:Sky Digital/Freesat,c:000928,c:010929,c:030928
 5857:011a0000:082e:0002:1:0
-Bangla TV
+92 News
 p:Sky Digital/Freesat,c:000911,c:010912,c:030911
 5859:011a0000:082e:0002:1:0
 Hum Masala
 p:Sky Digital/Freesat,c:000920,c:010921,c:030920
+585e:011a0000:082e:0002:1:0
+Made In Bristol
+p:Sky Digital,c:000916,c:010915,c:030916
+585f:011a0000:082e:0002:1:1
+Made In Cardiff
+p:Sky Digital,c:000916,c:010915,c:030916
+5860:011a0000:082e:0002:1:2
+Made In Leeds
+p:Sky Digital,c:000916,c:010915,c:030916
+5861:011a0000:082e:0002:1:0
+Made In Tyne & Wear
+p:Sky Digital,c:000916,c:010915,c:030916
+587b:011a0000:082e:0002:2:0
+WRN Europe
+p:Sky Digital/Freesat,c:010923,c:030923
+587c:011a0000:082e:0002:2:1
+TWR
+p:Sky Digital/Freesat,c:010925,c:030925
+587d:011a0000:082e:0002:2:2
+Desi Radio
+p:Sky Digital/Freesat,c:010919,c:030919
+587e:011a0000:082e:0002:2:3
+Absolute 70s
+p:Sky Digital/Freesat,c:01091c,c:03091c
+587f:011a0000:082e:0002:2:4
+Kanshi Radio
+p:Sky Digital/Freesat,c:010903,c:030903
+5880:011a0000:082e:0002:2:5
+Liberty Radio
+p:Sky Digital/Freesat,c:010904,c:030904
+5881:011a0000:082e:0002:2:6
+Jazz FM
+p:Sky Digital/Freesat,c:010924,c:030924
+5882:011a0000:082e:0002:2:7
+Solar Radio
+p:Sky Digital/Freesat,c:01091f,c:03091f
+5883:011a0000:082e:0002:2:8
+GN Radio
+p:Sky Digital/Freesat,c:010922,c:030922
 2968:011a0000:090b:003b:1:0
 TRP 1 (The Racing Partnership)
 p:Freesat,c:001771,c:011772,c:031771
@@ -2750,30 +2738,24 @@ p:Sky Digital,c:000931,c:010932,c:030931
 c535:011a2b68:0837:0002:1:0
 Chat Box
 p:Sky Digital,c:000934,c:010935,c:030934
-c53a:011a2b68:0837:0002:1:0
-Ex Girl Friends
-p:Sky Digital,c:000937,c:010938,c:030937
-c526:011a2b68:0837:0002:1:0
-Channel 44
-p:,c:000901,c:01090b,c:030901
 c53f:011a2b68:0837:0002:1:0
 MATV National
 p:Sky Digital,c:00093a,c:01093b,c:03093a
+c541:011a2b68:0837:0002:1:0
+New Vision TV
+p:Sky Digital,c:000911,c:010912,c:030911
 c4ef:011a2b68:0837:0002:1:0
 Islam Channel Urdu
 p:Sky Digital,c:000909,c:01090a,c:030909
 c508:011a2b68:0837:0002:1:0
 Studio 66 TV2
-p:Sky Digital
+p:Sky Digital,c:000905,c:010906,c:030905
 c50d:011a2b68:0837:0002:1:0
 Studio 66 TV3
 p:Sky Digital,c:000907,c:010908,c:030907
 c521:011a2b68:0837:0002:1:0
 Believe TV
 p:Sky Digital,c:000914,c:010915,c:030914
-c52b:011a2b68:0837:0002:1:0
-Climax
-p:Sky Digital
 c512:011a2b68:0837:0002:1:0
 Faith Channel
 p:Sky Digital,c:000912,c:010913,c:030912
@@ -2792,12 +2774,12 @@ p:Sky Digital,c:00092e,c:01092f,c:03092e
 c4f9:011a2b68:0837:0002:1:3
 V Channel
 p:Sky Digital,c:000922,c:010923,c:030904
-c4fe:011a2b68:0837:0002:1:4
-Made In Tyne & Wear
-p:Sky Digital,c:00091f,c:010920,c:03091f
 c503:011a2b68:0837:0002:1:5
 Samaa TV
 p:Sky Digital,c:00090c,c:01090d,c:03090c
+c4fe:011a2b68:0837:0002:1:0
+DBN - Deya Broadcasting Network
+p:Sky Digital,c:000919,c:010918,c:030919
 1839:011a305e:07f3:0002:1:0
 Discovery
 p:Sky Digital,c:000901,c:010902,c:020904,c:030901
@@ -2843,38 +2825,11 @@ p:Sky Digital/Freesat,c:000938,c:010939,c:030938
 1859:011a305e:07f3:0002:1:13
 TLC (UK)
 p:Sky Digital,c:000909,c:01090a,c:02090c,c:030909
-ccb0:011a0000:0831:0002:1:0
-Investigation Discovery Europe
-p:Sky Digital,c:000913,c:010914,c:020915,c:030913
-ccb5:011a0000:0831:0002:1:1
-Animal Planet +1
-p:Sky Digital,c:000905,c:010906,c:020908,c:030905
-ccba:011a0000:0831:0002:1:2
-Discovery Science +1
-p:Sky Digital,c:000901,c:010902,c:020904,c:030901
-ccbf:011a0000:0831:0002:1:3
-DMAX UK
-p:Sky Digital,c:000916,c:010917,c:030916
-ccc4:011a0000:0831:0002:1:4
-DMAX UK +1
-p:Sky Digital,c:00090d,c:01090e,c:03090d
-ccca:011a0000:0831:0002:1:5
-Investigation Discovery +1
-p:Sky Digital,c:000921,c:010922,c:030921
-ccd3:011a0000:0831:0002:1:6
-Discovery History +1
-p:Sky Digital,c:00091b,c:01091c,c:02091e,c:03091b
-ccd8:011a0000:0831:0002:1:7
-Discovery Shed
-p:Sky Digital,c:00091f,c:010920,c:03091f
-ccde:011a0000:0831:0002:1:8
-TLC +1
-p:Sky Digital,c:000909,c:01090a,c:02090c,c:030909
-cce2:011a0000:0831:0002:1:9
-Discovery Home & Health +1
-p:Sky Digital,c:00090f,c:010910,c:020912,c:03090f
-cce7:011a0000:0831:0002:1:10
-TLC +2
-p:Sky Digital,c:000924,c:010925,c:020927,c:030924
+cba7:011a2c01:083c:0002:1:1
+Peace TV
+p:Sky Digital/Freesat,c:000903,c:010904,c:030903
+cb9c:011a2c01:083c:0002:1:0
+TBN UK
+p:Sky Digital/Freesat,c:00093b,c:01093c,c:03093b
 end
-Editor:DreamSet 2.4.11 - http://www.dreamset-editor.com
+Editor:DreamSet 2.4.12 - http://www.dreamset-editor.com
