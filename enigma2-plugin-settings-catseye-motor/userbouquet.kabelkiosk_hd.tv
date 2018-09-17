@@ -1,6 +1,6 @@
-#NAME Kabelkiosk HD (Germany)
-#SERVICE 1:64:104:0:0:0:0:0:0:0:
-#DESCRIPTION ===Kabelkiosk HD===
+#NAME M7 Deutschland (HD)
+#SERVICE 1:64:ed:0:0:0:0:0:0:0:
+#DESCRIPTION ===M7 Deutschland HD===
 #SERVICE 1:0:19:672:1fa4:9c:5a0000:0:0:0:
 #SERVICE 1:0:19:26a:206c:9c:5a0000:0:0:0:
 #SERVICE 1:0:19:26e:206c:9c:5a0000:0:0:0:
@@ -43,6 +43,6 @@
 #SERVICE 1:0:19:12e:1edc:9c:5a0000:0:0:0:
 #SERVICE 1:0:19:cb:14b4:9c:5a0000:0:0:0:
 #SERVICE 1:0:19:26c:206c:9c:5a0000:0:0:0:
-#SERVICE 1:64:105:0:0:0:0:0:0:0:
-#DESCRIPTION ===Adult===
+#SERVICE 1:64:ee:0:0:0:0:0:0:0:
+#DESCRIPTION ===M7 Deutschland Adult===
 #SERVICE 1:0:19:1fb:2134:9c:5a0000:0:0:0:

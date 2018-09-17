@@ -1,5 +1,4 @@
-#NAME American Forces Network
-#SERVICE 1:0:1:22b:191:a:5a0000:0:0:0:
+#NAME American Forces Network HD
 #SERVICE 1:0:19:67:65:12:5a0000:0:0:0:
 #SERVICE 1:0:19:68:65:12:5a0000:0:0:0:
 #SERVICE 1:0:19:6b:65:12:5a0000:0:0:0:
