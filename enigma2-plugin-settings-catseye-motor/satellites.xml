@@ -524,7 +524,7 @@
 		<transponder frequency="11134000" symbol_rate="27500000" polarization="0" fec_inner="4" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="11175000" symbol_rate="27500000" polarization="0" fec_inner="4" inversion="2" modulation="1" system="0"/>
 	</sat>
-	<sat name="Intelsat 12/904 (45.0E)" flags="0" position="450">
+	<sat name="Intelsat 38 (45.0E)" flags="0" position="450">
 		<transponder frequency="11155000" symbol_rate="45000000" polarization="1" fec_inner="2" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="11475000" symbol_rate="30000000" polarization="1" fec_inner="2" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="11495000" symbol_rate="45000000" polarization="1" fec_inner="2" inversion="2" modulation="2" system="0"/>
@@ -769,7 +769,7 @@
 		<transponder frequency="12672000" symbol_rate="7200000" polarization="1" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="12691000" symbol_rate="7200000" polarization="1" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 	</sat>
-	<sat name="HellasSat 2/3 (39.0E)" flags="0" position="390">
+	<sat name="HellasSat 2 (39.0E)" flags="0" position="390">
 	</sat>
 	<sat name="Eutelsat 36B/36C (36.0E)" flags="0" position="360">
 		<transponder frequency="11053000" symbol_rate="2894000" polarization="1" fec_inner="3" inversion="2" modulation="1" system="0"/>
@@ -1295,7 +1295,7 @@
 		<transponder frequency="12738000" symbol_rate="4800000" polarization="1" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="21575000" symbol_rate="3333000" polarization="0" fec_inner="4" inversion="2" modulation="1" system="0"/>
 	</sat>
-	<sat name="Eutelsat 21B (21.5E)" flags="0" position="215">
+	<sat name="Eutelsat 21B (21.6E)" flags="0" position="216">
 		<transponder frequency="10919000" symbol_rate="33707000" polarization="0" fec_inner="7" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="10960000" symbol_rate="3300000" polarization="0" fec_inner="3" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="10966000" symbol_rate="2590000" polarization="0" fec_inner="3" inversion="2" modulation="1" system="0"/>
@@ -1709,7 +1709,7 @@
 		<transponder frequency="21576000" symbol_rate="3332000" polarization="0" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="21585000" symbol_rate="1667000" polarization="0" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 	</sat>
-	<sat name="Eutelsat Hot Bird 13B/13C/13E (13.0E)" flags="0" position="130">
+	<sat name="Eutelsat Hot Bird 13BCE (13.0E)" flags="0" position="130">
 		<transponder frequency="10719000" symbol_rate="27500000" polarization="1" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="10727000" symbol_rate="30000000" polarization="0" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="10758000" symbol_rate="27500000" polarization="1" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
@@ -2633,7 +2633,7 @@
 		<transponder frequency="12690000" symbol_rate="29950000" polarization="1" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="12732000" symbol_rate="29950000" polarization="1" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 	</sat>
-	<sat name="Eutelsat 7 West A/Nilesat 201 (7.0W)" flags="0" position="-70">
+	<sat name="Nilesat 201/ Eutelsat 7 (7.0W)" flags="0" position="-70">
 		<transponder frequency="10719000" symbol_rate="22000000" polarization="1" fec_inner="3" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="10727000" symbol_rate="27500000" polarization="0" fec_inner="4" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="10758000" symbol_rate="27500000" polarization="1" fec_inner="4" inversion="2" modulation="1" system="0"/>
@@ -2830,7 +2830,7 @@
 		<transponder frequency="11646000" symbol_rate="7300000" polarization="0" fec_inner="4" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="11669000" symbol_rate="5000000" polarization="0" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 	</sat>
-	<sat name="Eutelsat 12 West B/WGS 3 (12.5W)" flags="0" position="-125">
+	<sat name="Eutelsat 12 West B (12.5W)" flags="0" position="-125">
 		<transponder frequency="10963000" symbol_rate="4600000" polarization="1" fec_inner="4" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="10969000" symbol_rate="4600000" polarization="1" fec_inner="4" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="10975000" symbol_rate="4600000" polarization="1" fec_inner="4" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
@@ -2951,7 +2951,7 @@
 		<transponder frequency="12654000" symbol_rate="7000000" polarization="0" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="12707000" symbol_rate="4054000" polarization="0" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 	</sat>
-	<sat name="Intelsat 901 (18.0W)" flags="0" position="-180">
+	<sat name="Intelsat 37e (18.0W)" flags="0" position="-180">
 		<transponder frequency="3887000" symbol_rate="26500000" polarization="0" fec_inner="0" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="4000000" symbol_rate="7636000" polarization="1" fec_inner="4" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="4010000" symbol_rate="6730000" polarization="1" fec_inner="3" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>
@@ -3038,7 +3038,7 @@
 		<transponder frequency="12735000" symbol_rate="7500000" polarization="0" fec_inner="4" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="12744000" symbol_rate="7000000" polarization="0" fec_inner="3" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>
 	</sat>
-	<sat name="Intelsat 905 / AlComSat 1 (24.5W)" flags="0" position="-245">
+	<sat name="AlComSat 1 (24.5W)" flags="0" position="-245">
 		<transponder frequency="3648000" symbol_rate="2750000" polarization="1" fec_inner="3" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="3829000" symbol_rate="6110000" polarization="1" fec_inner="0" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="3930000" symbol_rate="3906000" polarization="1" fec_inner="3" inversion="2" modulation="1" system="0"/>
@@ -3157,7 +3157,7 @@
 		<transponder frequency="11050000" symbol_rate="17100000" polarization="0" fec_inner="5" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="11495000" symbol_rate="44100000" polarization="1" fec_inner="9" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>
 	</sat>
-	<sat name="Hispasat 30W-4/30W-5 (30.0W)" flags="0" position="-300">
+	<sat name="Hispasat 30W-4/5 (30.0W)" flags="0" position="-300">
 		<transponder frequency="10730000" symbol_rate="27500000" polarization="0" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="10770000" symbol_rate="30000000" polarization="0" fec_inner="4" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="10890000" symbol_rate="27500000" polarization="1" fec_inner="3" inversion="2" modulation="1" system="0"/>
@@ -3279,11 +3279,11 @@
 		<transponder frequency="12341000" symbol_rate="2120000" polarization="1" fec_inner="5" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="12344000" symbol_rate="2120000" polarization="1" fec_inner="5" inversion="2" modulation="1" system="0"/>
 	</sat>
-	<sat name="Intelsat 35e (34.5W)" flags="0" position="-345">
+	<sat name="Intelsat 35 (34.5W)" flags="0" position="-345">
 		<transponder frequency="4126000" symbol_rate="11000000" polarization="0" fec_inner="1" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="4132000" symbol_rate="30000000" polarization="1" fec_inner="7" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>
 	</sat>
-	<sat name="EchoStar 23/Intelsat 14 (45.0W)" flags="0" position="-450">
+	<sat name="Intelsat 14 (45.0W)" flags="0" position="-450">
 		<transponder frequency="3759000" symbol_rate="3750000" polarization="1" fec_inner="3" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="3766000" symbol_rate="3255000" polarization="1" fec_inner="3" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="3769000" symbol_rate="2400000" polarization="1" fec_inner="3" inversion="2" modulation="1" system="0"/>
@@ -3308,7 +3308,7 @@
 		<transponder frequency="11647000" symbol_rate="6620000" polarization="0" fec_inner="2" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="11654000" symbol_rate="4131000" polarization="0" fec_inner="3" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>
 	</sat>
-	<sat name="Amazonas 2/3/5 (61.0W)" flags="0" position="-610">
+	<sat name="Amazonas 3 (61.0W)" flags="0" position="-610">
 		<transponder frequency="3659000" symbol_rate="6666000" polarization="0" fec_inner="0" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="3668000" symbol_rate="6666000" polarization="0" fec_inner="0" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="3767000" symbol_rate="1600000" polarization="0" fec_inner="3" inversion="2" modulation="1" system="1" pilot="2" rolloff="0"/>

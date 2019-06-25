@@ -1,5 +1,5 @@
 #NAME Freesat (Romania) SD/HD
-#SERVICE 1:64:5c:0:0:0:0:0:0:0:
+#SERVICE 1:64:52:0:0:0:0:0:0:0:
 #DESCRIPTION Freesat (Romania)
 #SERVICE 1:0:19:1:1:1:a0ab7b:0:0:0:
 #SERVICE 1:0:19:2:1:1:a0ab7b:0:0:0:
@@ -26,13 +26,10 @@
 #SERVICE 1:0:19:2:c8:1:a0acf8:0:0:0:
 #SERVICE 1:0:19:3:c8:1:a0acf8:0:0:0:
 #SERVICE 1:0:19:4:c8:1:a0acf8:0:0:0:
-#SERVICE 1:0:19:6:c8:1:a0acf8:0:0:0:
 #SERVICE 1:0:19:7:c8:1:a0acf8:0:0:0:
 #SERVICE 1:0:19:8:c8:1:a0acf8:0:0:0:
 #SERVICE 1:0:19:b:1f4:5:a00000:0:0:0:
 #SERVICE 1:0:19:5:1:1:a0ab7b:0:0:0:
 #SERVICE 1:0:19:9:c8:1:a0acf8:0:0:0:
 #SERVICE 1:0:19:a:c8:1:a0acf8:0:0:0:
-#SERVICE 1:0:19:b:c8:1:a0acf8:0:0:0:
 #SERVICE 1:0:19:f:c8:1:a0acf8:0:0:0:
-#SERVICE 1:0:19:c8:c8:1:a0acf8:0:0:0:
