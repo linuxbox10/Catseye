@@ -212,7 +212,7 @@
 		<transponder frequency="12703000" symbol_rate="3400000" polarization="0" fec_inner="5" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="12708000" symbol_rate="3400000" polarization="0" fec_inner="5" inversion="2" modulation="1" system="0"/>
 	</sat>
-	<sat name="Intelsat 902 (62.0E)" flags="0" position="620">
+	<sat name="Intelsat 39 (62.0E)" flags="0" position="620">
 		<transponder frequency="3715000" symbol_rate="6111000" polarization="0" fec_inner="3" inversion="2" modulation="1" system="0"/>
 		<transponder frequency="3727000" symbol_rate="34286000" polarization="1" fec_inner="6" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>
 		<transponder frequency="3763000" symbol_rate="34286000" polarization="1" fec_inner="6" inversion="2" modulation="2" system="1" pilot="2" rolloff="0"/>

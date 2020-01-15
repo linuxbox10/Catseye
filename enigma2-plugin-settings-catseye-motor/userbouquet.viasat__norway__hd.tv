@@ -1,5 +1,5 @@
 #NAME Viasat (Norway) HD
-#SERVICE 1:64:f2:0:0:0:0:0:0:0:
+#SERVICE 1:64:e1:0:0:0:0:0:0:0:
 #DESCRIPTION ===Viasat (Norway) HD
 #SERVICE 1:0:19:b04:24:56:300000:0:0:0:
 #SERVICE 1:0:19:55a:1f:56:30ac79:0:0:0:

@@ -1,5 +1,5 @@
 #NAME Thor 5/6/7 0.8 West (Radio)
-#SERVICE 1:64:14d:0:0:0:0:0:0:0:
+#SERVICE 1:64:13d:0:0:0:0:0:0:0:
 #DESCRIPTION ===Canal Digital Radio===
 #SERVICE 1:0:2:1ebb:46:46:e080000:0:0:0:
 #SERVICE 1:0:2:1ebc:46:46:e080000:0:0:0:
